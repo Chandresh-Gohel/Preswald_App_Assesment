@@ -1,0 +1,25 @@
+[project]
+title = "Social Media Addiction Analysis Project"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/icons8-mobile-chat-16.png"
+primaryColor = "#F89613"
+# https://icons8.com/icon/0abDsLkWqgR9/mobile-chat
+
+[data.my_dataset]
+type = "csv"
+path = "data/Students_Social_Media_Addiction.csv"
+# https://www.kaggle.com/datasets/adilshamim8/social-media-addiction-vs-relationships/code
+
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+Students_Social_Media_Addiction.csv
